@@ -22,8 +22,8 @@
 // significant design changes were made.
 /* -------------------------------------------------------------- */
 
-#ifndef _Motor_Controller_Mk_2_H_
-#define _Motor_Controller_Mk_2_H_
+// #ifndef _Motor_Controller_Mk_2_H_
+// #define _Motor_Controller_Mk_2_H_
 #include "Arduino.h"
 //add your includes for the project Motor_Controller_Mk_2 here
 #include "test/FastPWM.h"
@@ -34,4 +34,4 @@
 void receiveEvent(int howMany);
 
 //Do not add code below this line
-#endif /* _Motor_Controller_Mk_2_H_ */
+// #endif /* _Motor_Controller_Mk_2_H_ */
