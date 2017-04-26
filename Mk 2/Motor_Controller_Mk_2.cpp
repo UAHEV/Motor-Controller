@@ -43,16 +43,6 @@ void loop() { }
 
 void receiveEvent(int howMany) {
 
-	// TODO: Investigate this
-	// For some reason, reading in a
-	// String object or a char array
-	// feeding that directly into the
-	// strol fcn causes strol to return
-	// 0, even if the string is the
-	// correct value. Thsi should always
-	// work, since the data will never
-	// me larger than 2 digits long
-
 	int sentData = (int)readI2CHex(howMany);
 
 	//Serial.print("Converted Value: ");
